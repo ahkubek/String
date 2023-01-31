@@ -14,11 +14,15 @@ public class Main {
         System.out.println("ZADACHA2");
         String small = "Ivanov Ivan Ivanovich";
         System.out.println(small.toUpperCase());
-
-        fullName = "Семён Семёнович";
         //Task3
         System.out.println();
         System.out.println("Задача3");
+
+        fullName = "Семён Семёнович";
+        fullName = fullName.replace("ё", "е");
+        System.out.println(fullName);
+
+
 
 
     }
